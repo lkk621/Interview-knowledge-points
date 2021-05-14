@@ -58,6 +58,7 @@ https://www.sumaarts.com/share/620.html
 
 
 2.2图卷积
+上一节讲到的CNN处理的都是矩阵形式的欧几里得结构数据，比如一个像素矩阵、一个一维向量等。而生活中并不是所有的数据都是规则的欧几里得结构数据，在面对诸如社交网络、知识图谱等具有拓扑结构的数据时，传统卷积操作就无法进行了。图卷积（Graph Convolutional Network，GCN）正是为了解决这一问题而被提出来的。
 2.3遮挡行人重识别评价指标
 行人重识别被认为是图像检索的一个子问题，所以图像检索的评价指标也被用于评价行人重识别问题，其中最常用的有累计匹配特征（Cumulative Match Characteristics, CMC）曲线和平均准确度均值（mean Average Precision, mAP）。
 	累计匹配特征曲线（CMC）
